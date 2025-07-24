@@ -43,3 +43,18 @@ Enable Snowpipe in Snowflake: Configure Snowpipe to monitor the S3 bucket and in
 Test with Postman: Simulate data ingestion by sending test payloads via Postman.
 
 Validate Data Flow: Ensure the data flows through all components and is queryable in Snowflake.
+
+## Execution :
+
+here we have added data from postman to API gateway.
+
+![alt text](image-3.png)
+
+got the data in S3 data bucket :
+
+![alt text](image-4.png)
+
+and landed into snowflake table :
+
+![alt text](image-5.png)
+
